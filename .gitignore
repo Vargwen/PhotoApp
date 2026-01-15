@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# AWS / Secrets
+.aws/
+credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
